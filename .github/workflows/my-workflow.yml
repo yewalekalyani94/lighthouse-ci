@@ -11,7 +11,7 @@ jobs:
       uses: foo-software/lighthouse-check-action@master
       with:
         outputDirectory: /tmp/artifacts
-        urls: 'https://www.foo.software,https://www.foo.software/contact'
+        urls: 'https://yewalekalyani94.github.io/Lighthouse-CI-Demo/'
     - name: Upload artifacts
       uses: actions/upload-artifact@master
       with:
